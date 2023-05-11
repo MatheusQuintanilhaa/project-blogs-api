@@ -10,5 +10,5 @@ module.exports = async (req, res, next) => {
   }
 
   req.decoded = result;
-  next();
+  return next();
 };
