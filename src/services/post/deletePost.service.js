@@ -20,3 +20,5 @@ module.exports = async (userId, id) => {
 
   return { type: null };
 };
+
+// tentando corrigir o lint
