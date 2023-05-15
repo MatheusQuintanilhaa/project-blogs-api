@@ -5,6 +5,12 @@ const getUserById = require('./user/getUserById.controllers');
 const newCategory = require('./category/newCategory.controllers');
 const getCategories = require('./category/getCategories.controllers');
 const newBlogPosts = require('./post/newBlogPost.controllers');
+const getPosts = require('./post/getPost.controllers');
+const getPostsById = require('./post/getPostsById.controller');
+const atualizePost = require('./post/atualizePost.controller');
+const deletePost = require('./post/deletePost.controller');
+const deleteUser = require('./user/deleteUser.controllers');
+const searchPost = require('./post/searchPost.controller');
 
 module.exports = {
   login,
@@ -14,4 +20,10 @@ module.exports = {
   newCategory,
   getCategories,
   newBlogPosts,
+  getPosts,
+  getPostsById,
+  atualizePost,
+  deletePost,
+  deleteUser,
+  searchPost,
 };
