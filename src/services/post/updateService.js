@@ -1,5 +1,5 @@
 const { BlogPost } = require('../../models');
-const findPostHelper = require('./findPostHelper.js');
+const findPostHelper = require('./findPostHelper');
 
 const update = async (title, content, id, userId) => {
   const postAtualized = await BlogPost.update(

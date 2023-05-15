@@ -7,7 +7,7 @@ const getCategories = require('./category/getCategories.controllers');
 const newBlogPosts = require('./post/newBlogPost.controllers');
 const getPosts = require('./post/getPost.controllers');
 const getPostsById = require('./post/getPostsById.controller');
-const atualizePost = require('./post/atualizePost.controller');
+const updatePost = require('./post/updatePost.controller');
 const deletePost = require('./post/deletePost.controller');
 const deleteUser = require('./user/deleteUser.controllers');
 const searchPost = require('./post/searchPost.controller');
@@ -22,7 +22,7 @@ module.exports = {
   newBlogPosts,
   getPosts,
   getPostsById,
-  atualizePost,
+  updatePost,
   deletePost,
   deleteUser,
   searchPost,

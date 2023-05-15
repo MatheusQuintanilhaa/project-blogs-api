@@ -1,4 +1,4 @@
-const service = require('../../services/post/atualizePost.service');
+const service = require('../../services/post/updateService');
 
 module.exports = async (req, res) => {
   const result = await service(req.decoded, req.params.id, req.body);
