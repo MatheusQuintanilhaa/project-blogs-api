@@ -1,5 +1,5 @@
 const { BlogPost } = require('../../models');
-const findPostHelper = require('./findPostHelper.js');
+const findPostHelper = require('./findPostHelper');
 
 const deletePost = async (id, userId) => {
   const postDeleted = await BlogPost.destroy(
