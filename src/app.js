@@ -33,10 +33,9 @@ app.get('/post/search', authentication, searchPost.searchPost);
 app.post('/post', authentication, newBlogPost.newBlogPosts);
 app.get('/post', authentication, getPost.getPosts);
 app.get('/post/:id', authentication, getPostById.getPostsById);
-app.put('/post/:id', authentication, getPostById.atualizePost);
+app.put('/post/:id', authentication, getPostById.updatePost);
 app.delete('/post/:id', authentication, deletePost.deletePost);
 // ...
 
-// É importante exportar a constante `app`,
-// para que possa ser utilizada pelo arquivo `src/server.js`
+// rotas atualizadas
 module.exports = app;
